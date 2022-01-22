@@ -1,9 +1,7 @@
-
-
 import {useState, useReducer} from "react";
 import "./App.css";
-import Question from "./components/Question";
-import Score from "./components/Score";
+import Question from "./src/components/Question";
+import Score from "./src/components/Score";
 
 function App() {
 

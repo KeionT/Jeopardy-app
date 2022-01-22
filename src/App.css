@@ -1,38 +1,51 @@
+html{
+  background-color: rgb(62,95,115);
+}
+
 .App {
+  margin-top: 5%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.yellowText{
+  color: rgb(234,210,122);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inline{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.inline > h2{
+  margin-right: 10px;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.getButton{
+  background-color: rgb(234,210,122);
+}
+
+.showButton{
+  background-color: rgb(26,38,80);
+  color: white;
+}
+
+.decreaseButton{
+ background-color: rgb(254,147,140);
+}
+
+.increaseButton{
+  background-color: rgb(97,145,181);
+}
+
+.resetButton{
+  background-color: rgb(231,29,55);
 }
